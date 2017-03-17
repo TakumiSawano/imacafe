@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body {
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-image : url(img/cafe.jpg);
+  background-attachment: fixed;
+  margin-top: 0px;
+}
+/*ヘッド４つの境界線、リンク設定*/
+.head {
+  position: relative;
+  height: 100px;
+  margin: 0px auto 45px auto;
+  width: 1100px;
+  background-color: rgba(0,0,0,0.5);
+}
+/*ヘッドのリンク設定*/
+.head a{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+.header {
+  background-color: rgba(0,0,0,0.7);
+}
+header {
+  height: 100px;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 100px;
+}
+.title {
+  float: left;
+}
+.welcome {
+  color: white;
+  text-align: right;
+}
+/*見出しの文字*/
+h1 {
+  margin-top: 12px;
+  color: white;
+  font-size: 40px;
+}
+.intro {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-right: 40px;
+}
+/*リンクの文字、下線の設定*/
+.head_a {
+  text-decoration: none;
+  color: white;
+}
+
+.log {
+  color: white;
+}
+/*４つの項目*/
+h2 {
+  color: white;
+  font-size: 40px;
+  text-align: left;
+  margin-top: 13px;
+}
+p {
+  color: white;
+  margin-top: 10px;
+}
+.text {
+  margin-top: 10px;
+  color: white;
+  font-size: 17px ;
+  text-align: left;
+}
+/*フッター*/
+ul {
+  display: flex;
+  margin-bottom: 0px;
+}
+li {
+  flex: 1;
+  list-style-type: none;
+  text-align: left;
+  margin-top: 13px
+}
+footer {
+  height: 50px;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 105px;
+}
+.foot_text {
+  color : white;
+}
+.footercolor {
+  background-color: rgba(0,0,0,0.7);
+}

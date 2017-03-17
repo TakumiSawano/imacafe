@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body {
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-image : url(img/cafe.jpg);
+  background-attachment: fixed;
+  margin-top: 0px;
+  margin-left: 10px
+}
+/*ヘッダー*/
+li {
+  list-style-type: none;
+  flex: 1;
+  text-align: left;
+}
+ul {
+  padding-top: 7px;
+  margin-left: 10px;
+}
+.head {
+  display: flex;
+}
+.head_a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.welcome {
+  color: white;
+  margin-left: 8px;
+  text-align: right;
+}
+h1 {
+  color: white;
+  margin-top: 90px;
+  font-size: 40px;
+}
+.error {
+  color: orange;
+}
+p {
+  color: white;
+  margin-bottom: 10px;
+}
+.cart {
+  width: 60px;
+  height: 60px;
+}
+/* ヘッダーの固定 */
+div#header-fixed
+{
+  position: fixed;            /* ヘッダーの固定 */
+  top: 0px;                   /* 位置(上0px) */
+  left: 0px;                  /* 位置(右0px) */
+  width: 100%;                /* 横幅100%　*/
+}
+div#header-bk {
+  background-color: rgba(0,0,0,0.5);
+  margin-top: 0px;
+	padding:5px 0 20px;       /* 上10px、下20pxをあける */
+	width:100%;                /* 横の幅を100% */
+}
+div#header {
+  /* 表示領域を白枠で囲う */
+  height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+  width: 1100px;              /* 横の幅970px */
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*カートの中身*/
+.result_lists {
+  list-style-type: none;
+  width: 261px;
+  float: left;
+  border: 2px ridge;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  height: 330px;
+}
+.goods {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+}
+.clear {
+  clear: both;
+}
+img {
+  width: 150px;
+  height: 230px;
+}
+.sum {
+  font-size: 25px;
+}
+article {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+form {
+  color: white;
+}
+input[type="submit"] {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  width: 130px;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+input[type="button"] {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  width: 130px;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+}

@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+body {
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-image : url(img/cafe.jpg);
+  background-attachment: fixed;
+  margin-top: 0px;
+  margin-left: 10px
+}
+/*ヘッダー*/
+li {
+  list-style-type: none;
+  flex: 1;
+}
+ul {
+  width: 1100px;
+  padding-top: 7px;
+  margin-left: 10px;
+}
+.head {
+  display: flex;
+}
+.head_a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.welcome {
+  color: white;
+  text-align: right;
+}
+h1 {
+  color: white;
+  margin-top: 90px;
+  margin-bottom: 8px;
+  font-size: 40px;
+}
+.error {
+  color: orange;
+}
+p {
+  margin-bottom: 5px;
+}
+.h1_p {
+  color: white;
+  margin-bottom: 10px;
+}
+/* ヘッダーの固定 */
+div#header-fixed
+{
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;            /* ヘッダーの固定 */
+  top: 0px;                   /* 位置(上0px) */
+  left: 0px;                  /* 位置(右0px) */
+  width: 100%;                /* 横幅100%　*/
+}
+div#header-bk {
+
+	padding:5px 0 20px;       /* 上10px、下20pxをあける */
+	               /* 横の幅を100% */
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div#header {
+	   /* 表示領域を白枠で囲う */
+	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+	width: 100%;              /* 横の幅970px */
+	margin: auto;              /* 中央揃え */
+  height: 55px;
+}
+/*投稿の部分*/
+.post_box {
+  background-color: rgba(0,0,0,0.7);
+  border-top: 1px dotted gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  color: white;
+  display: flex;
+}
+.form {
+  flex: 1;
+}
+.news {
+  flex: 2;
+}
+a {
+  color: white;
+}
+h2 {
+  font-size: 25px;
+}
+article {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+form {
+  color: white;
+}
+.link {
+  margin-left: 15px;
+}
+
+/*formの部分*/
+input[type="text"] {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  width: 309px;
+  height: 20px;
+  font-size: 12px;
+}
+input[type="submit"] {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  width: 120px;
+  height: 30px;
+  font-size: 15px;
+  margin-bottom: 21px;
+}
+textarea {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
